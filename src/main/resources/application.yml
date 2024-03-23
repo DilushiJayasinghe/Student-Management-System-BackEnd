@@ -1,0 +1,12 @@
+application:
+  institute: ICET
+
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/105_crm
+    password : 1234
+    username : root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
